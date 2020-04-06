@@ -204,7 +204,7 @@ main {
   color: #ffffff;
   font-family: 'Sen', sans-serif;
   font-size: 24px;
-  padding: 9px 25%;
+  padding: 9px 26%;
   text-decoration: none;
   text-shadow: 0px 1px 0px #4d3534;
   display: block;

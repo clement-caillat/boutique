@@ -60,22 +60,22 @@
       
       <div class="ligneindex">
                                                                                                                                                                                                                                                                                                                                                                                               
-        <div class="opacity1"><a href="#"><img id="iconeind" src="bracelet.jpg"></a></div>
+        <div class="opacity1"><a href="#"><img id="iconeind" src="tout.png"></a></div>
 
-        <div class="opacity1"><a href="#"><img id="iconeind" src="bracelet.jpg"></a></div>
+        <div class="opacity1"><a href="#"><img id="iconeind" src="accessoire.png"></a></div>
 
-        <div class="opacity1"><a href="#"><img id="iconeind" src="bracelet.jpg"></a></div>
+        <div class="opacity1"><a href="#"><img id="iconeind" src="minot.png"></a></div>
 
       </div>
 
 
       <div class="ligneindex">
 
-        <div class="opacity1"><a href="#"><img id="iconeind" src="bracelet.jpg"></a></div>
+        <div class="opacity1"><a href="#"><img id="iconeind" src="coupon.png"></a></div>
 
-        <div class="opacity1"><a href="#"><img id="iconeind" src="bracelet.jpg"></a></div>
+        <div class="opacity1"><img id="iconeind" src="pie.png"></div>
 
-        <div class="opacity1"><a href="#"><img id="iconeind" src="bracelet.jpg"></a></div>
+        <div class="opacity1"><a href="#"><img id="iconeind" src="adulte.png"></a></div>
 
       </div>
 
@@ -136,18 +136,21 @@ main {
 }
 
 .sectionindextxt{
-  margin: 7% 0% 5% 26.5%;
+  margin: 7% 0% 5% 27%;
   width: 50%;
 }
 
 /*imageeeee*/
 
 #iconeind{
-    width: 55%;
-    margin: auto;
+    width: 86%;
     border: 10px solid #F5EBDC;
     display: block;
     box-shadow: -1px 2px 4px -2px #846946;
+}
+
+.opacity1{
+  margin:auto;
 }
 
 .opacity1 #iconeind{

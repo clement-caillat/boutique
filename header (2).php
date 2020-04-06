@@ -111,7 +111,7 @@ else{
 header{
 	position: static;
 	width: 100%;
-	height: 27vh;
+	height: 25vh;
 	background-image: url(afri1.jpg);
 	box-shadow: 0px 2px 6px #422B0C;
 }

@@ -1,0 +1,230 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+/* End Imports */
+/* Init */
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}
+.error{
+    color: red;
+    text-align: center;
+}
+.message{
+    text-align: center;
+}
+/* End Init */
+
+/* Header */
+header{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(0, 62, 133);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+}
+header h4{
+    font-size: 1.5vw;
+    font-weight: 100;
+    letter-spacing: 5px;
+    color: white;
+}
+/* End Header */
+main{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    font-family: 'Roboto', sans-serif;
+}
+main nav{
+    width: 15%;
+    height: 100%;
+    background-color: #faf4ec;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 50px; */
+}
+main nav a#back{
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+main nav a#back:hover{
+    text-decoration: underline;
+}
+main nav ul{
+    height: 60%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+main nav ul a li{
+    list-style-type: none;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1vw;
+    color: #422B0C;
+}
+main nav ul a li:hover:not(.selected){
+    border-right: 2px solid rgb(0, 62, 133);
+}
+main nav ul a li.selected{
+    background-color: rgb(0, 62, 133);
+    color: white;
+}
+
+main .content{
+    width: 85%;
+    height: 100%;
+    padding-left: 10%;
+    padding-top: 5%;
+    box-sizing: border-box;
+    display: flex;
+    overflow: auto;
+    justify-content: space-evenly;
+}
+main .content .items{
+    width: 50%;
+    height: 90%;
+    background-color: #faf4ec;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    border-radius: 5px;
+    overflow: auto;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+main .content .items .title{
+    height: 10%;
+    margin-bottom: 50px;
+}
+main .content .items table{
+    width: 100%;
+    /* background-color: red; */
+    border-collapse: collapse;
+}
+main .content .items table th, td{
+    text-align: center;
+    border: 2px solid rgb(151, 151, 151);
+    padding: 5px;
+}
+main .content .items table td span{
+    color: red;
+}
+main .content .items table td img{
+    width: 20%;
+    height: auto;
+}
+main .content .items table td form{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+main .content .items table td form input{
+    background-color: red;
+    border: none;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main .content .add{
+    width: 20%;
+    height: 30%;
+    background-color: #faf4ec;
+    border-radius: 5px;
+}
+main .content .title{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(0, 62, 133);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+main .content .title h5{
+    margin: 0;
+    color: white;
+    font-weight: 100;
+    font-size: 1vw;
+}
+main .content .add form{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+main .content .add form input:not([type="submit"]){
+    width: 80%;
+    border: 1px solid #422B0C;
+    background-color: white;
+    font-size: 1vw;
+    outline: none;
+    padding: 5px;
+}
+main .content .add form input[type="submit"]{
+    width: 30%;
+    height: 30%;
+    border: none;
+    background-color: rgb(0, 62, 133);
+    color: white;
+    cursor: pointer;
+}
+main .content #product{
+    height: 70%;
+    width: 25%;
+}
+main .content #product .title{
+    height: 10%;
+}
+main .content #product form{
+    width: 100%;
+    height: 90%;
+}
+main .content #product form input:not([type="submit"]){
+    width: 80%;
+    font-size: 1vw;
+    height: 5%;
+}
+
+main .content #product form input[type="submit"]{
+    width: 30%;
+    height: 5%;
+}
+
+main .content #product form select{
+    width: 80%;
+    height: 5%;
+    border: 1px solid #422B0C;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-size: 1vw;
+}
+main .content #product form select option{
+    background-color: #ffe1b9;
+    font-size: 1vw;
+}

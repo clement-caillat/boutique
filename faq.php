@@ -33,8 +33,6 @@
         Dans notre boutique en ligne, vous voyez uniquement les articles que nous avons en stock. Street One produit douze collections par an. Afin d’avoir chaque mois de la place pour la dernière mode, nous ne recommandons normalement aucun article. Il est possible que des articles, des couleurs ou des tailles particulièrement prisés soient épuisés en peu de temps. Faites le tour de notre boutique – vous trouverez sûrement dans notre gamme un autre article qui vous plaît. Ou tentez votre chance dans un magasin Street One près de chez vous. Il est possible que l’article que vous souhaitez acheter y soit encore en stock. Vous trouverez le vendeur le plus proche dans notre "Recherche de magasin".
       </article>
 
-      <!-- ajouter droit php seulement admin -->
-          <button class="ajouter">Modifier l'article</button>
 
       <hr id="hrsavoir">
     </section>
@@ -47,8 +45,6 @@
       La conclusion du contrat s'effectue en français et vous recevrez tous les documents en français. Si vous résidez à l’étranger, utilisez notre Recherche de magasin, pour trouver un vendeur près de chez vous. Pour les commandes vers la Belgique ou la Suisse, veuillez vous rendre sur notre boutique en ligne via www.street-one.be/fr ou www.street-one.ch/fr.
       </article>
 
-      <!-- ajouter droit php seulement admin -->
-          <button class="ajouter">Modifier l'article</button>
 
       <hr id="hrsavoir">
     </section>
@@ -60,8 +56,7 @@
         Nous attachons une grande importance à la sécurité lors des transactions. Vos données sont transmises uniquement sous forme cryptée, de sorte que des tiers ne puissent pas les lire. Votre paiement par carte de crédit est traité par un partenaire certifié en matière de sécurité.
       </article>
 
-      <!-- ajouter droit php seulement admin -->
-          <button class="ajouter">Modifier l'article</button>
+
 
       <hr id="hrsavoir">
     </section>
@@ -72,14 +67,10 @@
         La livraison est gratuite. Toutefois, pour toute commande de moins de 24 €, nous facturons 3,95 € de frais d’envoi (TVA incl.), peu importe le nombre de colis.
       </article>
 
-      <!-- ajouter droit php seulement admin -->
-          <button class="ajouter">Modifier l'article</button>
+
 
       <hr id="hrsavoir">
     </section>
-
-      <!-- ajouter droit php seulement admin -->
-    <button class="ajouter plus">Ajouter un article</button>
 
   
   </main>

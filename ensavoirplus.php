@@ -34,8 +34,7 @@
 				Elle gratte, elle creuse, elle racle cette terre sèche et dure qui la protégeait, faisant d'incroyables efforts pour grimper plus haut, toujours plus haut. Son unique obsession est de quitter ces tunnels sombres qu’elle parcoure depuis trois longues années à la recherche de quelques racines à sucer. C’est maintenant le temps de se rapprocher de la surface pour sentir si la chaleur est au rendez-vous. Elle sait qu'elle est  le symbole du soleil et des collines, mais elle sait aussi qu’il ne lui reste qu’une saison de vie. Alors il faut qu’elle se bouge notre amie la cigale. Qu’elle découvre enfin cette clarté qu’elle espère depuis tant de mois. Etourdie par la lumière éblouissante de l’astre de jour, elle grimpe maintenant sur l’écorce à l’odeur enivrante d’un pin, mais pas trop haut, elle doit garder des forces s’extirper de sa coquille.
 			</article>
 
-			<!-- ajouter droit php seulement admin -->
-					<button class="ajouter">Modifier l'article</button>
+
 
 			<hr id="hrsavoir">
 		</section>
@@ -47,8 +46,6 @@
 				 Encore un dernier effort et la voilà enfin libérée de son carcan. Abandonnant son exuvie éventrée comme une dernière relique de sa vie passée, la voilà enfin libre. En s’envolant, elle passe si près de ma joue que je suis obligé de l’écarter d’un geste de la main. je m’appelle Jeanne. Les évènements que je vais vous raconter se sont déroulés il y a longtemps, sur plusieurs générations. Quand je pense à toutes ces années et malgré certains côtés tragiques, je suis nostalgique. J’ai souvent l’esprit ailleurs, les yeux dans le vague et quand quelqu’un me tape sur l’épaule en me demandant à quoi je pense, je lui réponds tout simplement à rien…
 			</article>
 
-			<!-- ajouter droit php seulement admin -->
-					<button class="ajouter">Modifier l'article</button>
 
 			<hr id="hrsavoir">
 		</section>
@@ -60,14 +57,11 @@
 				à rien d’important. Mais en réalité, je suis tellement imprégnée par cette histoire que je ne passe pas un jour sans y penser. Je ne peux en parler à personne, peut-être plus tard à mon fils quand il sera en âge de comprendre, mais me croira-t-il ? Pour bien comprendre tous ces évènements, il faut remonter de quelques années dans le temps.
 			</article>
 
-			<!-- ajouter droit php seulement admin -->
-					<button class="ajouter">Modifier l'article</button>
 
 			<hr id="hrsavoir">
 		</section>
 
-			<!-- ajouter droit php seulement admin -->
-		<button class="ajouter plus">Ajouter un article</button>
+
 
 
 	</main>
